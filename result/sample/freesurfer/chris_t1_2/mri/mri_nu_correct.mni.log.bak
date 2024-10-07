@@ -1,0 +1,24 @@
+/mnt/c/test/result/freesurfer/chris_t1_2/mri
+/usr/local/freesurfer/bin/mri_nu_correct.mni
+--no-rescale --i orig.mgz --o orig_nu.mgz --ants-n4 --n 1 --proto-iters 1000 --distance 50
+nIters 1
+mri_nu_correct.mni 7.1.0
+Linux 4d012f885482 5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Fri Oct  4 10:47:18 UTC 2024
+tmpdir is ./tmp.mri_nu_correct.mni.5183
+cd /mnt/c/test/result/freesurfer/chris_t1_2/mri
+AntsN4BiasFieldCorrectionFs -i orig.mgz -o ./tmp.mri_nu_correct.mni.5183/nu0.mgz
+Using shrink factor: 4
+mri_convert ./tmp.mri_nu_correct.mni.5183/nu0.mgz orig_nu.mgz --like orig.mgz --conform
+mri_convert ./tmp.mri_nu_correct.mni.5183/nu0.mgz orig_nu.mgz --like orig.mgz --conform 
+reading from ./tmp.mri_nu_correct.mni.5183/nu0.mgz...
+TR=0.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+INFO: transform src into the like-volume: orig.mgz
+writing to orig_nu.mgz...
+ 
+ 
+Fri Oct  4 10:49:47 UTC 2024
+mri_nu_correct.mni done

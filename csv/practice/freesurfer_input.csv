@@ -1,0 +1,2 @@
+subject_id,input_path,output_path,openmp,pet_path,psf
+chris_t1_1,/mnt/c/pipeline_test/result/practice/reface/chris_t1_1/chris_t1_1_deFaced.nii,/mnt/c/pipeline_test/result/practice/freesurfer,4,,

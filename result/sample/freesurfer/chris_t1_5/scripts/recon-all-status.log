@@ -1,0 +1,81 @@
+status file for recon-all
+Fri Oct  4 18:40:29 UTC 2024
+#@# MotionCor Fri Oct  4 18:40:31 UTC 2024
+#@# Talairach Fri Oct  4 18:40:36 UTC 2024
+#@# Talairach Failure Detection Fri Oct  4 18:43:29 UTC 2024
+#@# Nu Intensity Correction Fri Oct  4 18:43:29 UTC 2024
+#@# Intensity Normalization Fri Oct  4 18:46:13 UTC 2024
+#@# Skull Stripping Fri Oct  4 18:47:12 UTC 2024
+#@# EM Registration Fri Oct  4 18:50:58 UTC 2024
+#@# CA Normalize Fri Oct  4 18:53:21 UTC 2024
+#@# CA Reg Fri Oct  4 18:54:09 UTC 2024
+#@# SubCort Seg Fri Oct  4 19:46:01 UTC 2024
+#@# CC Seg Fri Oct  4 20:22:32 UTC 2024
+#@# Merge ASeg Fri Oct  4 20:23:05 UTC 2024
+#@# Intensity Normalization2 Fri Oct  4 20:23:05 UTC 2024
+#@# Mask BFS Fri Oct  4 20:24:43 UTC 2024
+#@# WM Segmentation Fri Oct  4 20:24:43 UTC 2024
+#@# Fill Fri Oct  4 20:26:45 UTC 2024
+#@# Tessellate lh Fri Oct  4 20:27:42 UTC 2024
+#@# Tessellate rh Fri Oct  4 20:27:47 UTC 2024
+#@# Smooth1 lh Fri Oct  4 20:27:52 UTC 2024
+#@# Smooth1 rh Fri Oct  4 20:27:52 UTC 2024
+#@# Inflation1 lh Fri Oct  4 20:27:57 UTC 2024
+#@# Inflation1 rh Fri Oct  4 20:27:57 UTC 2024
+#@# QSphere lh Fri Oct  4 20:28:14 UTC 2024
+#@# QSphere rh Fri Oct  4 20:28:14 UTC 2024
+#@# Fix Topology lh Fri Oct  4 20:30:08 UTC 2024
+#@# Fix Topology rh Fri Oct  4 20:30:08 UTC 2024
+#@# Smooth2 lh Fri Oct  4 20:38:04 UTC 2024
+#@# Smooth2 rh Fri Oct  4 20:38:04 UTC 2024
+#@# Inflation2 lh Fri Oct  4 20:38:10 UTC 2024
+#@# Inflation2 rh Fri Oct  4 20:38:10 UTC 2024
+#@# Curv .H and .K lh Fri Oct  4 20:38:30 UTC 2024
+#@# Curv .H and .K rh Fri Oct  4 20:38:30 UTC 2024
+#@# Sphere lh Fri Oct  4 20:39:15 UTC 2024
+#@# Sphere rh Fri Oct  4 20:39:15 UTC 2024
+#@# Surf Reg lh Fri Oct  4 20:43:29 UTC 2024
+#@# Surf Reg rh Fri Oct  4 20:43:29 UTC 2024
+#@# Jacobian white lh Fri Oct  4 20:48:45 UTC 2024
+#@# Jacobian white rh Fri Oct  4 20:48:45 UTC 2024
+#@# AvgCurv lh Fri Oct  4 20:48:47 UTC 2024
+#@# AvgCurv rh Fri Oct  4 20:48:47 UTC 2024
+#@# Cortical Parc lh Fri Oct  4 20:48:49 UTC 2024
+#@# Cortical Parc rh Fri Oct  4 20:48:49 UTC 2024
+#@# white curv lh Fri Oct  4 20:57:25 UTC 2024
+#@# white area lh Fri Oct  4 20:57:27 UTC 2024
+#@# pial curv lh Fri Oct  4 20:57:29 UTC 2024
+#@# pial area lh Fri Oct  4 20:57:32 UTC 2024
+#@# thickness lh Fri Oct  4 20:57:34 UTC 2024
+#@# area and vertex vol lh Fri Oct  4 20:58:04 UTC 2024
+#@# white curv rh Fri Oct  4 20:58:09 UTC 2024
+#@# white area rh Fri Oct  4 20:58:11 UTC 2024
+#@# pial curv rh Fri Oct  4 20:58:13 UTC 2024
+#@# pial area rh Fri Oct  4 20:58:16 UTC 2024
+#@# thickness rh Fri Oct  4 20:58:17 UTC 2024
+#@# area and vertex vol rh Fri Oct  4 20:58:48 UTC 2024
+#@# Curvature Stats lh Fri Oct  4 20:58:53 UTC 2024
+#@# Curvature Stats rh Fri Oct  4 20:58:57 UTC 2024
+#@# Cortical ribbon mask Fri Oct  4 20:59:02 UTC 2024
+#@# Cortical Parc 2 lh Fri Oct  4 21:02:56 UTC 2024
+#@# Cortical Parc 2 rh Fri Oct  4 21:02:56 UTC 2024
+#@# Cortical Parc 3 lh Fri Oct  4 21:03:13 UTC 2024
+#@# Cortical Parc 3 rh Fri Oct  4 21:03:13 UTC 2024
+#@# WM/GM Contrast lh Fri Oct  4 21:03:27 UTC 2024
+#@# WM/GM Contrast rh Fri Oct  4 21:03:27 UTC 2024
+#@# Relabel Hypointensities Fri Oct  4 21:03:36 UTC 2024
+#@# APas-to-ASeg Fri Oct  4 21:03:52 UTC 2024
+#@# AParc-to-ASeg aparc Fri Oct  4 21:04:12 UTC 2024
+#@# AParc-to-ASeg aparc.a2009s Fri Oct  4 21:06:05 UTC 2024
+#@# AParc-to-ASeg aparc.DKTatlas Fri Oct  4 21:07:57 UTC 2024
+#@# WMParc Fri Oct  4 21:09:49 UTC 2024
+#@# Parcellation Stats lh Fri Oct  4 21:12:39 UTC 2024
+#@# Parcellation Stats rh Fri Oct  4 21:12:39 UTC 2024
+#@# Parcellation Stats 2 lh Fri Oct  4 21:13:06 UTC 2024
+#@# Parcellation Stats 2 rh Fri Oct  4 21:13:06 UTC 2024
+#@# Parcellation Stats 3 lh Fri Oct  4 21:13:26 UTC 2024
+#@# Parcellation Stats 3 rh Fri Oct  4 21:13:26 UTC 2024
+#@# ASeg Stats Fri Oct  4 21:13:45 UTC 2024
+#@# BA_exvivo Labels lh Fri Oct  4 21:14:30 UTC 2024
+#@# BA_exvivo Labels rh Fri Oct  4 21:16:21 UTC 2024
+recon-all -s chris_t1_5 finished without error at Fri Oct  4 21:18:09 UTC 2024

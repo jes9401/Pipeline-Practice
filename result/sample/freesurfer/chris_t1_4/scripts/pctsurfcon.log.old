@@ -1,0 +1,5 @@
+Logfile for pctsurfcon
+Fri Oct  4 18:25:45 UTC 2024
+setenv SUBJECTS_DIR /mnt/c/test/result/freesurfer
+cd /mnt/c/test/result/freesurfer/chris_t1_4/scripts
+/usr/local/freesurfer/bin/pctsurfcon

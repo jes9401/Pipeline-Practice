@@ -1,0 +1,38 @@
+Log file for defect2seg
+Fri Oct  4 12:37:39 UTC 2024
+
+setenv SUBJECTS_DIR /mnt/c/test/result/freesurfer
+cd /mnt/c/test/result/freesurfer/chris_t1_2/scripts
+/usr/local/freesurfer/bin/defect2seg --s chris_t1_2
+
+freesurfer-linux-centos7_x86_64-7.1.0-20200511-813297b
+defect2seg 7.1.0
+Linux 4d012f885482 5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+pid 6383
+mri_label2vol --defects /mnt/c/test/result/freesurfer/chris_t1_2/surf/lh.orig.nofix /mnt/c/test/result/freesurfer/chris_t1_2/surf/lh.defect_labels /mnt/c/test/result/freesurfer/chris_t1_2/mri/orig.mgz 1000 0 /mnt/c/test/result/freesurfer/chris_t1_2/mri/surface.defects.mgz
+mri_label2vol supposed to be reproducible but seed not set
+Changing input type 0 to MRI_INT
+Converting defects to volume: offset=1000, merge=0
+Writing to /mnt/c/test/result/freesurfer/chris_t1_2/mri/surface.defects.mgz
+mris_defects_pointset -s /mnt/c/test/result/freesurfer/chris_t1_2/surf/lh.orig.nofix -d /mnt/c/test/result/freesurfer/chris_t1_2/surf/lh.defect_labels -o /mnt/c/test/result/freesurfer/chris_t1_2/surf/lh.defects.pointset
+Reading in surface /mnt/c/test/result/freesurfer/chris_t1_2/surf/lh.orig.nofix
+Reading in defect segmentation /mnt/c/test/result/freesurfer/chris_t1_2/surf/lh.defect_labels
+#VMPC# mris_defects_pointset 573380
+mris_defects_pointset done
+mri_label2vol --defects /mnt/c/test/result/freesurfer/chris_t1_2/surf/rh.orig.nofix /mnt/c/test/result/freesurfer/chris_t1_2/surf/rh.defect_labels /mnt/c/test/result/freesurfer/chris_t1_2/mri/surface.defects.mgz 2000 1 /mnt/c/test/result/freesurfer/chris_t1_2/mri/surface.defects.mgz
+mri_label2vol supposed to be reproducible but seed not set
+Converting defects to volume: offset=2000, merge=1
+Writing to /mnt/c/test/result/freesurfer/chris_t1_2/mri/surface.defects.mgz
+mris_defects_pointset -s /mnt/c/test/result/freesurfer/chris_t1_2/surf/rh.orig.nofix -d /mnt/c/test/result/freesurfer/chris_t1_2/surf/rh.defect_labels -o /mnt/c/test/result/freesurfer/chris_t1_2/surf/rh.defects.pointset
+Reading in surface /mnt/c/test/result/freesurfer/chris_t1_2/surf/rh.orig.nofix
+Reading in defect segmentation /mnt/c/test/result/freesurfer/chris_t1_2/surf/rh.defect_labels
+#VMPC# mris_defects_pointset 572816
+mris_defects_pointset done
+ 
+Started at Fri Oct 4 12:37:39 UTC 2024 
+Ended   at Fri Oct  4 12:37:46 UTC 2024
+Defect2seg-Run-Time-Sec 7
+Defect2seg-Run-Time-Min 0.14
+Defect2seg-Run-Time-Hours 0.00
+ 
+defect2seg Done

@@ -1,0 +1,1 @@
+mri_convert /mnt/c/test/result/freesurfer/chris_t1_2/mri/rawavg.mgz /mnt/c/test/result/freesurfer/chris_t1_2/mri/orig.mgz --conform

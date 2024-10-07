@@ -1,0 +1,10 @@
+-parallel
+-openmp
+4
+-s
+chris_t1_2
+-i
+/mnt/c/test/result/reface/chris_t1_2/chris_t1_2_deFaced.nii
+-sd
+/mnt/c/test/result/freesurfer
+-all

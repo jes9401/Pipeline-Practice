@@ -1,0 +1,1 @@
+mri_cc -aseg aseg.auto_noCCseg.mgz -o aseg.auto.mgz -lta /mnt/c/test/result/freesurfer/chris_t1_1/mri/transforms/cc_up.lta chris_t1_1

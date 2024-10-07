@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT chris_t1_5
+START_TIME Fri Oct 4 18:40:28 UTC 2024
+END_TIME Fri Oct 4 21:18:09 UTC 2024
+RUNTIME_HOURS 2.628
+USER root
+HOST 4d012f885482
+PROCESSOR x86_64
+OS Linux
+UNAME Linux 4d012f885482 5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+VERSION 7.1.0 (freesurfer-linux-centos7_x86_64-7.1.0-20200511-813297b)
+CMDPATH /usr/local/freesurfer/bin/recon-all
+CMDARGS -parallel -openmp 4 -s chris_t1_5 -i /mnt/c/test/result/reface/chris_t1_5/chris_t1_5_deFaced.nii -sd /mnt/c/test/result/freesurfer -all

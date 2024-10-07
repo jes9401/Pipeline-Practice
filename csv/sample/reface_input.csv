@@ -1,0 +1,6 @@
+input_path,type
+/mnt/c/pipeline_test/test_data/chris_t1_1.nii,T1
+/mnt/c/pipeline_test/test_data/chris_t1_2.nii,T1
+/mnt/c/pipeline_test/test_data/chris_t1_3.nii,T1
+/mnt/c/pipeline_test/test_data/chris_t1_4.nii,T1
+/mnt/c/pipeline_test/test_data/chris_t1_5.nii,T1

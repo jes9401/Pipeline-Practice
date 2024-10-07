@@ -1,0 +1,41 @@
+
+$Id: mri_gtmpvc.c,v 1.69.2.1 2016/07/08 19:50:25 zkaufman Exp $
+setenv SUBJECTS_DIR /usr/local/freesurfer/subjects
+cd /root
+mri_gtmpvc --i /home/share/sub_p-003_PET.nii.gz --reg /home/share/sub_p-003_T1/sub_p-003_T1_template.reg.lta --seg /home/share/sub_p-003_T1/mri/gtmseg.mgz --default-seg-merge --auto-mask 1 0.1 --no-tfe --o /home/share/sub_p-003_T1/sub_p-003_T1_gtmpvc_output 
+sysname  Linux
+hostname 464d33dc1264
+machine  x86_64
+user     root
+vgthresh   0.001000
+nReplace   18
+0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 
+Loading seg for gtm /home/share/sub_p-003_T1/mri/gtmseg.mgz
+Loading ctab /home/share/sub_p-003_T1/mri/gtmseg.ctab
+Reading /home/share/sub_p-003_T1/mri/gtmseg.lta
+MEM: Size 870072  Peak: 1275548   RSS: 745604  Data: 739504  Stk: 132
+MEM: Size 1402352  Peak: 1402996   RSS: 1277676  Data: 1271784  Stk: 132
+Data load time 338.1 sec
+nmask = 10559527, nsegs = 100, excluding segid=0
+FWHM: 0 0 0
+Std:  0 0 0
+nPad 1, PadThresh 0.0001
+Segmentations used for rescaling
+ 174 Pons
+MEM: Size 485608  Peak: 1545404   RSS: 361184  Data: 355040  Stk: 132
+MEM: Size 7908984  Peak: 7908984   RSS: 2247212  Data: 7778416  Stk: 132
+MEM: Size 7982312  Peak: 7982312   RSS: 2320592  Data: 7851744  Stk: 132
+GTM-Build-time 53.9 sec
+MEM: Size 16396668  Peak: 16614452   RSS: 10735076  Data: 16266100  Stk: 132
+MEM: Size 17054000  Peak: 17054000   RSS: 11350028  Data: 16923432  Stk: 132
+GTM-Solve-Time 647.5 sec
+MEM: Size 17219000  Peak: 17219000   RSS: 12083956  Data: 17088432  Stk: 132
+nopvc multiplicative scale 1
+rescale factor    0.001046664806809
+rvar = 0.0263943
+XtX  Condition     3166.985 
+XtX  Condition     3166.985 
+VRF  Mean/Min/Max  104045.029 1204.000 3813049.835 
+MEM: Size 8804368  Peak: 17219000   RSS: 3731616  Data: 8673800  Stk: 132
+mri_gtmpvc-runtime 20.40 min
+mri_gtmpvc done

@@ -1,0 +1,6 @@
+subject_id,input_path,output_path,openmp,pet_path,psf
+chris_t1_1,/mnt/c/pipeline_test/result/sample/reface/chris_t1_1/chris_t1_1_deFaced.nii,/mnt/c/pipeline_test/result/sample/freesurfer,4,,
+chris_t1_2,/mnt/c/pipeline_test/result/sample/reface/chris_t1_2/chris_t1_2_deFaced.nii,/mnt/c/pipeline_test/result/sample/freesurfer,4,,
+chris_t1_3,/mnt/c/pipeline_test/result/sample/reface/chris_t1_3/chris_t1_3_deFaced.nii,/mnt/c/pipeline_test/result/sample/freesurfer,4,,
+chris_t1_4,/mnt/c/pipeline_test/result/sample/reface/chris_t1_4/chris_t1_4_deFaced.nii,/mnt/c/pipeline_test/result/sample/freesurfer,4,,
+chris_t1_5,/mnt/c/pipeline_test/result/sample/reface/chris_t1_5/chris_t1_5_deFaced.nii,/mnt/c/pipeline_test/result/sample/freesurfer,4,,
